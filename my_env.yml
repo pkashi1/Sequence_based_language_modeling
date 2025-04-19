@@ -1,0 +1,27 @@
+name: myenv_torch_cuda
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.0
+  - pytorch-cuda=11.8
+  - torchvision=0.16.0
+  - torchaudio=2.1.0
+  - cudatoolkit=11.8
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - sentencepiece
+  - nltk
+  - tqdm
+  - requests
+  - click
+  - jinja2
+  - sympy
+  - packaging
+  - pip
+  - pip:
+      - sentencepiece
